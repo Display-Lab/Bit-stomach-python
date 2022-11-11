@@ -1,0 +1,897 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "slowmo": "http://example.com/slowmo#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/terms/",
+    "psdo": "http://purl.obolibrary.org/obo/",
+    "slowmo:Measure": "http://example.com/slowmo#Measure",
+    "slowmo:IsAboutPerformer": "http://example.com/slowmo#IsAboutPerformer",
+    "slowmo:ColumnUse": "http://example.com/slowmo#ColumnUse",
+    "slowmo:IsAboutTemplate": "http://example.com/slowmo#IsAboutTemplate",
+    "slowmo:spek": "http://example.com/slowmo#spek",
+    "slowmo:IsAboutCausalPathway": "http://example.com/slowmo#IsAboutCausalPathway",
+    "slowmo:IsAboutOrganization": "http://example.com/slowmo#IsAboutOrganization",
+    "slowmo:IsAboutMeasure": "http://example.com/slowmo#IsAboutMeasure",
+    "slowmo:InputTable": "http://example.com/slowmo#InputTable",
+    "slowmo:WithComparator": "http://example.com/slowmo#WithComparator",
+    "has_part": "http://purl.obolibrary.org/obo/bfo#BFO_0000051",
+    "has_disposition": "http://purl.obolibrary.org/obo/RO_0000091"
+  },
+  "@id": "http://example.com/app#display-lab",
+  "@type": "http://example.com/slowmo#spek",
+  "slowmo:IsAboutOrganization": {
+    "@type": "Organization",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "USA",
+      "addressRegion": "MI",
+      "streetAddress": "DLHS, 1161 NIB, 300 N Ingalls St.",
+      "postalCode": "48109",
+      "name": "DisplayLab"
+    }
+  },
+  "slowmo:IsAboutMeasure": [
+    {
+      "@id": "_:NMB01",
+     
+      "identifier": "NMB01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.90
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+
+        }
+      ]
+    },
+    {
+      "@id": "_:NMB02",
+     
+      
+      "identifier": "NMB02",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.90
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:PUL01",
+     
+      
+      "identifier": "PUL01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.90
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:GLU01",
+     
+      
+      "identifier": "GLU01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.90
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:GLU02",
+     
+      
+      "identifier": "GLU02",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.90
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+
+        }
+      ]
+    },
+    {
+      "@id": "_:TRAN01",
+     
+      
+      "identifier": "TRAN01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.90
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:TRAN02",
+     
+      
+      "identifier": "TRAN02",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.10
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:BP01",
+     
+      
+      "identifier": "BP01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.90
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:BP02",
+     
+      
+      "identifier": "BP02",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.90
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:MED01",
+     
+      
+      "identifier": "MED01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.05
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:FLUID01NC",
+     
+     
+      "identifier": "FLUID01NC",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:FLUID01C",
+     
+      
+      "identifier": "FLUID01C",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:AKI01",
+     
+      
+      "identifier": "AKI01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.1
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:TEMP01",
+     
+      
+      "identifier": "TEMP01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:TEMP02",
+     
+      
+      "identifier": "TEMP02",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:TEMP03",
+     
+      
+      "identifier": "TEMP03",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.1
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:TOC02",
+     
+      
+      "identifier": "TOC02",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:PONV01",
+     
+      
+      "identifier": "PONV01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:PUL02",
+     
+      
+      "identifier": "PUL02",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:TOC03",
+     
+      
+      "identifier": "TOC03",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:CARD02",
+     
+      
+      "identifier": "CARD02",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.05
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:PONV02",
+     
+      
+      "identifier": "PONV02",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:TOC01",
+     
+      
+      "identifier": "TOC01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:PUL03",
+     
+      "dc:title": "Administration of PEEP",
+      "identifier": "PUL03",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:CARD03",
+     
+      
+      "identifier": "CARD03",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.05
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:SUS01",
+     
+      
+      "identifier": "SUS01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:PONV03",
+     
+      
+      "identifier": "PONV03",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.1
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:BP03",
+     
+      
+      "identifier": "BP03",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:PONV03",
+     
+      
+      "identifier": "PONV03",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.1
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:GLU03",
+     
+      
+      "identifier": "GLU03",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:GLU04",
+     
+      
+      "identifier": "GLU04",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:TEMP04",
+     
+      
+      "identifier": "TEMP04",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:ABX01",
+     
+      
+      "identifier": "ABX01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:MORT01",
+     
+      
+      "identifier": "MORT01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:GLU05",
+     
+      
+      "identifier": "GLU05",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:PAIN01",
+     
+      
+      "identifier": "PAIN01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:BP04",
+     
+      
+      "identifier": "BP04",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:GA01",
+     
+      
+      "identifier": "GA01",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:PAIN02",
+     
+      
+      "identifier": "PAIN02",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:PONV04",
+     
+      
+      "identifier": "PONV04",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:TEMP05",
+     
+      
+      "identifier": "TEMP05",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.1
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:GA02",
+     
+      
+      "identifier": "GA02",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS"
+        }
+      ]
+    },
+    {
+      "@id": "_:TEMP06",
+     
+     
+      "identifier": "TEMP06",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.1
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    },
+    {
+      "@id": "_:PONV05",
+     
+      
+      "identifier": "PONV05",
+      "slowmo:WithComparator": [
+        {
+          
+          "name": "goal",
+          "dc:title": "GOAL",
+          "slowmo:ComparisonValue": 0.9
+        },
+        {
+          
+          "name": "peers",
+          "dc:title": "PEERS",
+          "slowmo:ComparisonValue": 0.93
+        }
+      ]
+    }
+  ],
+
+  "slowmo:IsAboutTemplate": [
+    {
+      "@id": "http://feedbacktailor.org/ftkb#TopPerformerBar"
+    },
+    {
+      "@id": "http://feedbacktailor.org/ftkb#WorseSocialBar"
+    },
+    {
+      "@id": "http://feedbacktailor.org/ftkb#ReachedSocialBar"
+    },
+    {
+      "@id": "http://feedbacktailor.org/ftkb#BetterGoalBar"
+    },
+    {
+      "@id": "http://feedbacktailor.org/ftkb#ApproachingGoalBar"
+    },
+    {
+      "@id": "http://feedbacktailor.org/ftkb#LostGoalBar"
+    },
+    {
+      "@id": "http://feedbacktailor.org/ftkb#ReachedGoalBar"
+    },
+    {
+      "@id": "http://feedbacktailor.org/ftkb#PerformanceWorseningBar"
+    }
+  ]
+
+}
+

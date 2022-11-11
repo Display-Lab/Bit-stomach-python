@@ -1,0 +1,2335 @@
+[
+    {
+        "@id": "http://example.com/app#display-lab",
+        "@type": [
+            "http://example.com/slowmo#spek"
+        ],
+        "http://example.com/slowmo#IsAboutMeasure": [
+            {
+                "@id": "_:NMB01"
+            },
+            {
+                "@id": "_:NMB02"
+            },
+            {
+                "@id": "_:PUL01"
+            },
+            {
+                "@id": "_:GLU01"
+            },
+            {
+                "@id": "_:GLU02"
+            },
+            {
+                "@id": "_:TRAN01"
+            },
+            {
+                "@id": "_:TRAN02"
+            },
+            {
+                "@id": "_:BP01"
+            },
+            {
+                "@id": "_:BP02"
+            },
+            {
+                "@id": "_:MED01"
+            },
+            {
+                "@id": "_:FLUID01NC"
+            },
+            {
+                "@id": "_:FLUID01C"
+            },
+            {
+                "@id": "_:AKI01"
+            },
+            {
+                "@id": "_:TEMP01"
+            },
+            {
+                "@id": "_:TEMP02"
+            },
+            {
+                "@id": "_:TEMP03"
+            },
+            {
+                "@id": "_:TOC02"
+            },
+            {
+                "@id": "_:PONV01"
+            },
+            {
+                "@id": "_:PUL02"
+            },
+            {
+                "@id": "_:TOC03"
+            },
+            {
+                "@id": "_:CARD02"
+            },
+            {
+                "@id": "_:PONV02"
+            },
+            {
+                "@id": "_:TOC01"
+            },
+            {
+                "@id": "_:PUL03"
+            },
+            {
+                "@id": "_:CARD03"
+            },
+            {
+                "@id": "_:SUS01"
+            },
+            {
+                "@id": "_:PONV03"
+            },
+            {
+                "@id": "_:BP03"
+            },
+            {
+                "@id": "_:GLU03"
+            },
+            {
+                "@id": "_:GLU04"
+            },
+            {
+                "@id": "_:TEMP04"
+            },
+            {
+                "@id": "_:ABX01"
+            },
+            {
+                "@id": "_:MORT01"
+            },
+            {
+                "@id": "_:GLU05"
+            },
+            {
+                "@id": "_:PAIN01"
+            },
+            {
+                "@id": "_:BP04"
+            },
+            {
+                "@id": "_:GA01"
+            },
+            {
+                "@id": "_:PAIN02"
+            },
+            {
+                "@id": "_:PONV04"
+            },
+            {
+                "@id": "_:TEMP05"
+            },
+            {
+                "@id": "_:GA02"
+            },
+            {
+                "@id": "_:TEMP06"
+            },
+            {
+                "@id": "_:PONV05"
+            }
+        ],
+        "http://example.com/slowmo#IsAboutOrganization": [
+            {
+                "@id": "_:Nc22f10a1613645d7b896ca4ba175415c"
+            }
+        ],
+        "http://example.com/slowmo#IsAboutPerformer": [
+            {
+                "@id": "p1"
+            }
+        ],
+        "http://example.com/slowmo#IsAboutTemplate": [
+            {
+                "@id": "http://feedbacktailor.org/ftkb#TopPerformerBar"
+            },
+            {
+                "@id": "http://feedbacktailor.org/ftkb#WorseSocialBar"
+            },
+            {
+                "@id": "http://feedbacktailor.org/ftkb#ReachedSocialBar"
+            },
+            {
+                "@id": "http://feedbacktailor.org/ftkb#BetterGoalBar"
+            },
+            {
+                "@id": "http://feedbacktailor.org/ftkb#ApproachingGoalBar"
+            },
+            {
+                "@id": "http://feedbacktailor.org/ftkb#LostGoalBar"
+            },
+            {
+                "@id": "http://feedbacktailor.org/ftkb#ReachedGoalBar"
+            },
+            {
+                "@id": "http://feedbacktailor.org/ftkb#PerformanceWorseningBar"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nc22f10a1613645d7b896ca4ba175415c",
+        "@type": [
+            "http://schema.org/Organization"
+        ],
+        "http://schema.org/address": [
+            {
+                "@id": "_:Nafb99f2a6e6642998804bb64250744c5"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nafb99f2a6e6642998804bb64250744c5",
+        "@type": [
+            "http://schema.org/PostalAddress"
+        ],
+        "http://schema.org/addressCountry": [
+            {
+                "@value": "USA"
+            }
+        ],
+        "http://schema.org/addressRegion": [
+            {
+                "@value": "MI"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "DisplayLab"
+            }
+        ],
+        "http://schema.org/postalCode": [
+            {
+                "@value": "48109"
+            }
+        ],
+        "http://schema.org/streetAddress": [
+            {
+                "@value": "DLHS, 1161 NIB, 300 N Ingalls St."
+            }
+        ]
+    },
+    {
+        "@id": "_:NMB01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N66f01880217b408b8ceefb5aa0cfba15"
+            },
+            {
+                "@id": "_:Nf5d2f20233dc4e09856ff8a92aae76eb"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "NMB01"
+            }
+        ]
+    },
+    {
+        "@id": "_:N66f01880217b408b8ceefb5aa0cfba15",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nf5d2f20233dc4e09856ff8a92aae76eb",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:NMB02",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N7267a76bc82548709ef583a54f3aa477"
+            },
+            {
+                "@id": "_:N2d6e2a9e4ab94a489ded91d2c1f93bc7"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "NMB02"
+            }
+        ]
+    },
+    {
+        "@id": "_:N7267a76bc82548709ef583a54f3aa477",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N2d6e2a9e4ab94a489ded91d2c1f93bc7",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:PUL01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Naff656a3d5ef49308915ff9b05834b13"
+            },
+            {
+                "@id": "_:N430b18be19d74a87984fd4d1fbd8b910"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "PUL01"
+            }
+        ]
+    },
+    {
+        "@id": "_:Naff656a3d5ef49308915ff9b05834b13",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N430b18be19d74a87984fd4d1fbd8b910",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:GLU01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N20691e572ce746b39325d06acd924791"
+            },
+            {
+                "@id": "_:N495778be5a114e00ba1afa8c68af8520"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "GLU01"
+            }
+        ]
+    },
+    {
+        "@id": "_:N20691e572ce746b39325d06acd924791",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N495778be5a114e00ba1afa8c68af8520",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:GLU02",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N78ce63039d8d4502bcf7f834ce792c34"
+            },
+            {
+                "@id": "_:N55676a51f1fa4a9b85626e904447675b"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "GLU02"
+            }
+        ]
+    },
+    {
+        "@id": "_:N78ce63039d8d4502bcf7f834ce792c34",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N55676a51f1fa4a9b85626e904447675b",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:TRAN01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Nf2a746a49aa840a882ccfe5455f428b9"
+            },
+            {
+                "@id": "_:N7c03e6f5df1b41aca9aa07967b2606d0"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "TRAN01"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nf2a746a49aa840a882ccfe5455f428b9",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N7c03e6f5df1b41aca9aa07967b2606d0",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:TRAN02",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Nab4f89f59083435aaeb5906e5fae5a46"
+            },
+            {
+                "@id": "_:N79f1f69526f244a0aab93a9fa41895f2"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "TRAN02"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nab4f89f59083435aaeb5906e5fae5a46",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.1
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N79f1f69526f244a0aab93a9fa41895f2",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:BP01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N7bb2ad21b2224d4c8446767500a2e8c9"
+            },
+            {
+                "@id": "_:Nac23ea86d78741b1b2351243d72fa073"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "BP01"
+            }
+        ]
+    },
+    {
+        "@id": "_:N7bb2ad21b2224d4c8446767500a2e8c9",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nac23ea86d78741b1b2351243d72fa073",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:BP02",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Nf6d9c54c943d4006947f466edf1a6f8b"
+            },
+            {
+                "@id": "_:N004dc40e61bc4c95879eee8da87d0e55"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "BP02"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nf6d9c54c943d4006947f466edf1a6f8b",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N004dc40e61bc4c95879eee8da87d0e55",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:MED01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Nf29b87bc5ff946f6a05453885446ed0a"
+            },
+            {
+                "@id": "_:N66c5cc978f5e4e8995da5fcafd42306e"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "MED01"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nf29b87bc5ff946f6a05453885446ed0a",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.05
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N66c5cc978f5e4e8995da5fcafd42306e",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:FLUID01NC",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N15477d3f156e4e9c8c9b0de6ddbe7940"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "FLUID01NC"
+            }
+        ]
+    },
+    {
+        "@id": "_:N15477d3f156e4e9c8c9b0de6ddbe7940",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:FLUID01C",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N129a9bce847f4b2482112ceb41a5c19b"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "FLUID01C"
+            }
+        ]
+    },
+    {
+        "@id": "_:N129a9bce847f4b2482112ceb41a5c19b",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:AKI01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N3e99bd403ae4476fa0bd709a19931b19"
+            },
+            {
+                "@id": "_:Nc7d42fc99266446294278def7351fd37"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "AKI01"
+            }
+        ]
+    },
+    {
+        "@id": "_:N3e99bd403ae4476fa0bd709a19931b19",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.1
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nc7d42fc99266446294278def7351fd37",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:TEMP01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Naaea32bcfc3646a8a6912b2e9dec4225"
+            },
+            {
+                "@id": "_:N26116d7f2e044e59aa164b1a12a69765"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "TEMP01"
+            }
+        ]
+    },
+    {
+        "@id": "_:Naaea32bcfc3646a8a6912b2e9dec4225",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N26116d7f2e044e59aa164b1a12a69765",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:TEMP02",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Nb79b84b9d21d4fce86d6df6bcab92462"
+            },
+            {
+                "@id": "_:N4d9213f0f3334a849629771c6161c841"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "TEMP02"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nb79b84b9d21d4fce86d6df6bcab92462",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N4d9213f0f3334a849629771c6161c841",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:TEMP03",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Nb122028275ae461d93496895073bcb99"
+            },
+            {
+                "@id": "_:Nb02d548bfa824323a4e8c009eeca482b"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "TEMP03"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nb122028275ae461d93496895073bcb99",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.1
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nb02d548bfa824323a4e8c009eeca482b",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:TOC02",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N495a286d897e441fb5fffb2fd5c7f156"
+            },
+            {
+                "@id": "_:Nc14c2abd84f1401697e526ded4471bed"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "TOC02"
+            }
+        ]
+    },
+    {
+        "@id": "_:N495a286d897e441fb5fffb2fd5c7f156",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nc14c2abd84f1401697e526ded4471bed",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:PONV01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N34d5efe3ceee44fba907d6e9a6e989e9"
+            },
+            {
+                "@id": "_:N7eeebc285194485990e620c0e4985dc7"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "PONV01"
+            }
+        ]
+    },
+    {
+        "@id": "_:N34d5efe3ceee44fba907d6e9a6e989e9",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N7eeebc285194485990e620c0e4985dc7",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:PUL02",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N3c3c46c2e2f94066b04144c2e20b50a9"
+            },
+            {
+                "@id": "_:N8d60071591b94e7f9a78d08432121ab5"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "PUL02"
+            }
+        ]
+    },
+    {
+        "@id": "_:N3c3c46c2e2f94066b04144c2e20b50a9",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N8d60071591b94e7f9a78d08432121ab5",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:TOC03",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N92c2bffb1d12429c82c3cdadb3b2ebdf"
+            },
+            {
+                "@id": "_:Nb34055bb215c435d8310bfeecf67ca91"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "TOC03"
+            }
+        ]
+    },
+    {
+        "@id": "_:N92c2bffb1d12429c82c3cdadb3b2ebdf",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nb34055bb215c435d8310bfeecf67ca91",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:CARD02",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N6ab0865435aa489781620609cf0bbb80"
+            },
+            {
+                "@id": "_:Nbc25a0a83fda439aa8dc19cd42c478c9"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "CARD02"
+            }
+        ]
+    },
+    {
+        "@id": "_:N6ab0865435aa489781620609cf0bbb80",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.05
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nbc25a0a83fda439aa8dc19cd42c478c9",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:PONV02",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N4f550ce583c3447d8f14f4ba34b35a24"
+            },
+            {
+                "@id": "_:Nba49eb2cb3e847c1a5b2fbca81c44f5d"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "PONV02"
+            }
+        ]
+    },
+    {
+        "@id": "_:N4f550ce583c3447d8f14f4ba34b35a24",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nba49eb2cb3e847c1a5b2fbca81c44f5d",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:TOC01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N71b5bea7e50d4c9591e976b4855a9b9e"
+            },
+            {
+                "@id": "_:N53a3e691c9b942a8ae7a2d6e7e2fba24"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "TOC01"
+            }
+        ]
+    },
+    {
+        "@id": "_:N71b5bea7e50d4c9591e976b4855a9b9e",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N53a3e691c9b942a8ae7a2d6e7e2fba24",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:PUL03",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Na559dec2c5bc4213b82e77216ca7e329"
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "Administration of PEEP"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "PUL03"
+            }
+        ]
+    },
+    {
+        "@id": "_:Na559dec2c5bc4213b82e77216ca7e329",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:CARD03",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N29960bb5054448c6992e398d2df1f180"
+            },
+            {
+                "@id": "_:N9b976ee123504d8cbd77d07c4ccf50bf"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "CARD03"
+            }
+        ]
+    },
+    {
+        "@id": "_:N29960bb5054448c6992e398d2df1f180",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.05
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N9b976ee123504d8cbd77d07c4ccf50bf",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:SUS01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Nc0c2067c35b4404597092a2052f2939a"
+            },
+            {
+                "@id": "_:N18fae736a973454da031a4228b2199f2"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "SUS01"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nc0c2067c35b4404597092a2052f2939a",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N18fae736a973454da031a4228b2199f2",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:PONV03",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N84fd0f104fa64411b99f57c0a73dac42"
+            },
+            {
+                "@id": "_:N9c6def2e3fc34a9b9424d5a9a771493d"
+            },
+            {
+                "@id": "_:N09f32ffefcbf4b4692bf6d08e05c6bb2"
+            },
+            {
+                "@id": "_:Nac64a457e3564b13b1b34d52358abd7e"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "PONV03"
+            }
+        ]
+    },
+    {
+        "@id": "_:N84fd0f104fa64411b99f57c0a73dac42",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.1
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N9c6def2e3fc34a9b9424d5a9a771493d",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:N09f32ffefcbf4b4692bf6d08e05c6bb2",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.1
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nac64a457e3564b13b1b34d52358abd7e",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:BP03",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Nf9414089a394424ca6b8d272c03380d7"
+            },
+            {
+                "@id": "_:N964acfe7b2044db6b8da9864f92af4ab"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "BP03"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nf9414089a394424ca6b8d272c03380d7",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N964acfe7b2044db6b8da9864f92af4ab",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:GLU03",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Nccb5dc006f604fe2ba856ce7fbb6a4f0"
+            },
+            {
+                "@id": "_:Nc4c8ba1716c44e4c99e6f8b0e935ee1c"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "GLU03"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nccb5dc006f604fe2ba856ce7fbb6a4f0",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nc4c8ba1716c44e4c99e6f8b0e935ee1c",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:GLU04",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N00684b98f86040ddaf1c3ac5805491d3"
+            },
+            {
+                "@id": "_:N893d47a867514478b9f7726f8770e2e1"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "GLU04"
+            }
+        ]
+    },
+    {
+        "@id": "_:N00684b98f86040ddaf1c3ac5805491d3",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N893d47a867514478b9f7726f8770e2e1",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:TEMP04",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N644af7574d7e40e5a23df2eb57b36a42"
+            },
+            {
+                "@id": "_:N13146bb993a342e9b144371671f2a6ba"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "TEMP04"
+            }
+        ]
+    },
+    {
+        "@id": "_:N644af7574d7e40e5a23df2eb57b36a42",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N13146bb993a342e9b144371671f2a6ba",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:ABX01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N232522b268fa4fafab4279cd5e9b35b7"
+            },
+            {
+                "@id": "_:N6607d188b0d54bfb928ce16663b8a068"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "ABX01"
+            }
+        ]
+    },
+    {
+        "@id": "_:N232522b268fa4fafab4279cd5e9b35b7",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N6607d188b0d54bfb928ce16663b8a068",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:MORT01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Nc5771c17854f4b5990a647e883a0c19d"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "MORT01"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nc5771c17854f4b5990a647e883a0c19d",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:GLU05",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N85f22a12a0544578a7d3de5d1ccc95cb"
+            },
+            {
+                "@id": "_:Na61fe56e059c4fddab737e80e8daa259"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "GLU05"
+            }
+        ]
+    },
+    {
+        "@id": "_:N85f22a12a0544578a7d3de5d1ccc95cb",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:Na61fe56e059c4fddab737e80e8daa259",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:PAIN01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Nc81311fe28604ef18a72aea9df47a5cb"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "PAIN01"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nc81311fe28604ef18a72aea9df47a5cb",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:BP04",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N11d4688dcb8642408d17d353989612ad"
+            },
+            {
+                "@id": "_:N261a7824a3cf4345a8dea69cb64e1f12"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "BP04"
+            }
+        ]
+    },
+    {
+        "@id": "_:N11d4688dcb8642408d17d353989612ad",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N261a7824a3cf4345a8dea69cb64e1f12",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:GA01",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Ne72a3a8ef3a6466cac1fa34ceb306c18"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "GA01"
+            }
+        ]
+    },
+    {
+        "@id": "_:Ne72a3a8ef3a6466cac1fa34ceb306c18",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:PAIN02",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Nc80482ee90404b959245c71b219e4e57"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "PAIN02"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nc80482ee90404b959245c71b219e4e57",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:PONV04",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N2d5c18234b224f5496f7ad4ca40e98cb"
+            },
+            {
+                "@id": "_:N3026c82006094758b4a0cd7820dcaeef"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "PONV04"
+            }
+        ]
+    },
+    {
+        "@id": "_:N2d5c18234b224f5496f7ad4ca40e98cb",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N3026c82006094758b4a0cd7820dcaeef",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:TEMP05",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N33cfea37b38a4920811089bded817d53"
+            },
+            {
+                "@id": "_:N90415ce13a8b4e10b43565bd5cd76a77"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "TEMP05"
+            }
+        ]
+    },
+    {
+        "@id": "_:N33cfea37b38a4920811089bded817d53",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.1
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N90415ce13a8b4e10b43565bd5cd76a77",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:GA02",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:N9e3e162e571b4f36b833f37f0496ce37"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "GA02"
+            }
+        ]
+    },
+    {
+        "@id": "_:N9e3e162e571b4f36b833f37f0496ce37",
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:TEMP06",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Nf468aab4d5a74d6f927cdbfe7b15e722"
+            },
+            {
+                "@id": "_:N3ccde91e8ea04ee1ae2e10f8ca7709ab"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "TEMP06"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nf468aab4d5a74d6f927cdbfe7b15e722",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.1
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N3ccde91e8ea04ee1ae2e10f8ca7709ab",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "_:PONV05",
+        "http://example.com/slowmo#WithComparator": [
+            {
+                "@id": "_:Ncdbe9a32549c4bfa9f7d7c2d2ce38495"
+            },
+            {
+                "@id": "_:N55d74e86634a49458ea965c7887351ee"
+            }
+        ],
+        "http://schema.org/identifier": [
+            {
+                "@value": "PONV05"
+            }
+        ]
+    },
+    {
+        "@id": "_:Ncdbe9a32549c4bfa9f7d7c2d2ce38495",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.9
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "GOAL"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "goal"
+            }
+        ]
+    },
+    {
+        "@id": "_:N55d74e86634a49458ea965c7887351ee",
+        "http://example.com/slowmo#ComparisonValue": [
+            {
+                "@value": 0.93
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "@value": "PEERS"
+            }
+        ],
+        "http://schema.org/name": [
+            {
+                "@value": "peers"
+            }
+        ]
+    },
+    {
+        "@id": "p1",
+        "@type": [
+            {
+                "@value": "http://purl.obolibrary.org/obo/psdo_0000085"
+            }
+        ]
+    }
+]
